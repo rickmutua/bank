@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Moringa Bank</title>
+		<meta charset="utf-8">
+        <link rel="shortcut icon" href="images/icon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="CSS/styles.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+	
+ <h1>Welcome to Moringa Bank</h1>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-6">
+			<!---create account and initial deposit--->
+			  <form id="create-account">
+				  <h4>Register New Account</h4>
+				  <p>Name</p>
+				  <input type="text" name="Name" id="name"><br><br>
+				  <p>Initial Deposit</p>
+				  <input type="number" name="initialDeposit" id="initial-deposit"><br><br>
+				  <input type="submit" value="Enter">
+			  </form>
+		</div>
+		<div class="col-md-6">
+			<!--deposit---->
+			  <form id="deposit">
+				  <h4>Deposit or Withdrawal Funds</h4>
+				  <p>Deposit Amount</p>
+				  <input type="number" name="deposit" id="deposit-amount"><br><br>
+				  <input type="submit" value="Enter">
+			</form>
+			<!--withdrawal--->
+			<form id="withdraw">
+				  <p>Withdraw Amount</p>
+				  <input type="number" name="withdraw" id="withdraw-amount">
+				  <br><br>
+				  <input type="submit" value="Enter">
+				  <br><br>
+			  </form>
+		</div>
+		<div class="col-md-6">
+		<p>Current Balance</p>
+		<h4 id="balance">   </h4>
+		</div>
+	</div>
+</div>	
+	
+	
+	
+<!--Bootstrap scripts-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--JQUERY-->	
+        
+<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="JS/script.js"></script>
+</body>
+</html>
